@@ -1,16 +1,16 @@
 import "./ui/global.css";
-import { montserrat } from "./ui/fonts";
+import { poppis } from "./ui/fonts";
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>
-        {children}
-        </body> 
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body className={`${poppis.className} antialiased`}>
+                {children}
+            </body>
+        </html>
+    );
 }
